@@ -1,5 +1,5 @@
-import ast,sys
-input_str = sys.stdin.read()
+if __name__ == "__main__":
+    input_str = input("Enter the encrypted string: ").strip()
 #Type your code here
 if len(input_str) % 2 == 0:
     input_str = input_str
