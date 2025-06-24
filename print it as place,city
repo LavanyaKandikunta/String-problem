@@ -14,8 +14,6 @@ for i in range(len(input_str)):
         message2.append(input_str[i])
 message1 = ''.join(message1)
 message2 = ''.join(message2)
-
 word1 = message1.replace('#', '')
 word2 = message2.replace('#', '')
-
 print(f"{word1},{word2}")
