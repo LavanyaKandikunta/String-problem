@@ -1,0 +1,18 @@
+import ast,sys
+input_str = sys.stdin.read()
+#Type your code here
+if len(input_str) % 2 == 0:
+    input_str = input_str
+else:
+    input_str = input_str.add("#")
+message1 = []
+message2 = []
+for i in range(len(input_str)):
+    if i % 2 == 0:
+        message1.append(input_str[i])
+    else:
+        message2.append(input_str[i])
+message1 = ''.join(message1)
+message2 = ''.join(message2)
+
+print(f"{message1},{message2}")
